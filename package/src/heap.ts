@@ -37,6 +37,9 @@ const initialize = (id: string | number) => {
   document.body.appendChild(script);
 };
 
-export default {
+/**
+ * Object for manipulating Heap Analytics.
+ */
+export const ReactHeap = {
   initialize,
 };
