@@ -37,4 +37,6 @@ const initialize = (id: string | number) => {
   document.body.appendChild(script);
 };
 
-export default initialize;
+export default {
+  initialize,
+};

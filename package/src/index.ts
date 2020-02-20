@@ -1,5 +1,3 @@
-import initialize from './heap';
+import * as ReactHeap from './heap';
 
-export {
-  initialize,
-};
+export default ReactHeap;
