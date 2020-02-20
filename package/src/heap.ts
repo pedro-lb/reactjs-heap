@@ -40,6 +40,8 @@ const initialize = (id: string | number) => {
 /**
  * Object for manipulating Heap Analytics.
  */
-export const ReactHeap = {
+const ReactHeap = {
   initialize,
 };
+
+export default ReactHeap;

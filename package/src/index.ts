@@ -1,3 +1,3 @@
-import * as ReactHeap from './heap';
+import ReactHeap from './heap';
 
 export default ReactHeap;
